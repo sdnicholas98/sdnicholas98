@@ -1,0 +1,8 @@
+# 'wep_name:['wep_style', wep_stab, wep_slash, wep_crush]
+weapon_dict = {'sword':['melee', 12, 10, 2], 'bow':['ranged', 12, 0, 0], 'staff':['magic', 1, 0, 4], 'sabre':['melee', 10, 12, 2], 'club':['melee', 1, 1, 12]}
+
+
+print("Name\t", "\t", "Style", "Stab", "Slash", "Crush")
+for key in weapon_dict:
+    print(key+"\t\t", weapon_dict[key])
+    
